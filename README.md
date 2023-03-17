@@ -1,2 +1,3 @@
-# set-effort-analysis
-Data analysis on DBMI Software Engineering Team efforts.
+# DBMI Software Engineering Team (SET) Effort Analysis
+
+Data analysis on DBMI Software Engineering Team (SET) efforts.
