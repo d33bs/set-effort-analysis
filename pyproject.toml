@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "set-effort-analysis"
+version = "0.0.1"
+description = "Data analysis on DBMI Software Engineering Team efforts."
+authors = ["Your Name <you@example.com>"]
+license = "BSD-3-Clause license"
+readme = "README.md"
+packages = [{include = "set_effort_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+togglpy = "^0.1.2"
+jupyterlab = "^3.6.1"
+pandas = "^1.5.3"
+duckdb = "^0.7.1"
+black = "^23.1.0"
+isort = "^5.12.0"
+jupyterlab-code-formatter = "^1.5.3"
+dvc = {extras = ["gdrive"], version = "^2.50.0"}
+openpyxl = "^3.1.2"
+pyarrow = "^11.0.0"
+matplotlib = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bandit]
+exclude_dirs = ["tests"]
