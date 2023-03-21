@@ -19,6 +19,7 @@ jupyterlab-code-formatter = "^1.5.3"
 dvc = {extras = ["gdrive"], version = "^2.50.0"}
 openpyxl = "^3.1.2"
 pyarrow = "^11.0.0"
+matplotlib = "^3.7.1"
 
 [build-system]
 requires = ["poetry-core"]

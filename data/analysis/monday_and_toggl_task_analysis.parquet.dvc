@@ -1,0 +1,4 @@
+outs:
+- md5: 3d96f5de317a7b3cde0307f96660e315
+  size: 24312
+  path: monday_and_toggl_task_analysis.parquet

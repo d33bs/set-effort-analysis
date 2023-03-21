@@ -1,0 +1,4 @@
+outs:
+- md5: 8e3a7c15980d393258b9eacd75bd755c
+  size: 18454
+  path: DB-Toggl_Track_summary_report_2022-01-01_2022-12-31.csv
